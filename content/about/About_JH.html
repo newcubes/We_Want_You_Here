@@ -1,0 +1,56 @@
+
+
+<div class="container-fluid container-lightbox">
+<section class="content blog">
+
+  <h1 class="Theme_Title"> Journey House and Peace House</h1>
+  <p class="Subtitle">Re-entry Success Designed by Women for Women</p>
+  <br>
+  <br>
+
+  <div class="thin">
+  <div class="col-md-4"></div>
+  <div class="col-md-8"><p class="Quote">“Never change things by fighting the existing reality… to change something, build a new model that makes the existing model obsolete.”</p>
+  </div>
+  </div>
+  <div class="thin">
+  <div class="col-md-4"></div>
+  <div class="col-md-8"><p class="Quote_Author">R. Buckminster Fuller--Engineer-Architect-Futurist</p>
+  </div>
+  </div>
+  <br>
+  <hr>
+  <br>
+  <h3 style="text-align:center;">My Release from Prison</h3>
+  <p class="Description">It's cold. I step down from the prison transport van before dawn at the bus station in Kansas City. I’m wearing recycled security guard pants, a T-shirt, and shower shoes. I have my prison ID, $5.00, and a massive case of overwhelm. It’s been four years. I’m out… but how am I going to make it in this world where I’ve already failed?
+
+      Two women come up, introduce themselves and welcome me. One is Georgia Walker, the woman who interviewed and accepted me to Journey House before my release. The other is Sister Gabe Smits. They give no instructions, requirements, or security questions--just smiles and an offer to stop for breakfast on our drive to my new residence for the next three months. I nod, but I can’t talk. I can’t stop crying. I’m too nervous to breathe.</p>
+  <h3 style="text-align:center;">Journey House and Peace House</h3>
+  <p class="Description">During the course of a year, nearly 4,000 women will be released from Missouri State prisons, and most will need home plans in order to do so. There are at least four major home plan options for women: release to the home of a family member or friend; release to a state-funded private residential facility; release to a state-operated community supervision center; or release to an independently funded private re-entry program.
+     Journey and Peace House are such “new models” of independently- funded private re-entry program. These re-enty homes are the vision of Georgia Walker, Executive Director of Journey to New Life, and Sister Rose McLarney, who has experience with Restorative Justice. Journey to New Life is the umbrella organization for Journey and Peace Houses. The homes have been highly effective helping women transition back into the community.
+
+
+The national average rate of women re-offending and returning to prison is a bleak 60%. The rate for Journey and Peace House graduates?... 6 percent.
+
+
+      The guiding principles from Journey and Peace House home plans explain the low recidivism rate.</p>
+
+<hr>
+  <?php foreach($page->children() as $story): ?>
+
+  <story>
+    <h2></h2>
+    <!-- <p ><?= $story->intro()->kirbytext() ?></p> -->
+
+  <a href="<?= $story->url() ?>" class="button"><?= $story->title()->html() ?></a>
+
+    <br>
+    <br>
+  </story>
+
+  <?php endforeach ?>
+
+</section>
+
+<?php snippet('footer') ?>
+</div>

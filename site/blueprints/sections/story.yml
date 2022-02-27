@@ -1,0 +1,6 @@
+type: pages
+headline: Stories
+info: "{{ page.date.toDate('d.m.Y') }}"
+template: story
+empty: No articles yet
+sortBy: date desc

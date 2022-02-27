@@ -1,0 +1,13 @@
+Theme_Title: Urges 
+----
+Subtitle: Addiction - Opposites Attract
+----
+Quote: “Women’s most common pathways to crime are based on survival of abuse, poverty and substance abuse. The relationship between these three factors is complex and significant.”
+----
+Quote_Author:Judith Berman, Ph.D
+----
+Description: Physical, sexual, and emotional abuse is very common in the lives of women. Addiction to drugs or alcohol to alleviate the pain frequently ensues. The resulting lifestyle, often compounded by poverty and prostitution, leads to intimate relationships that perpetuate further sexual and domestic violence. In other words, multiple forms of trauma usually precede a women’s abuse of substances and ultimate involvement in the criminal justice system.
+----
+Resources:
+https://www.cmcainternational.org/wp-content/uploads/2019/10/Women-offender-transition-nd-reentry.pdfJudith Berman, Ph.D., Center for Effective Public Policy, for the National Institute of Corrections
+----
